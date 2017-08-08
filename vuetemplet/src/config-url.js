@@ -7,7 +7,7 @@ var SystemGlobe = window.SystemGlobe || {};
 
 SystemGlobe.url = {
   // 查询字典
-  //暂定项目名为 @project
+  //暂定项目名为 @projectname
   dictionary: {
     queryByCode: '/project/dictionary/queryDicByCode',
     queryByType: '/project/distionary/queryDictionaryType'
@@ -21,16 +21,16 @@ SystemGlobe.url = {
   // 各个页面相关接口
   // page1
   page1: {
-    getPageinfo: '/project/pageinfo',
-    deletePageInfo: '/project/pageinfo/delete',
-    changePageInfo: '/project/pageinfo/update',
-    addPageInfo: '/project/pageinfo/save',
+    getPageinfo: '/projectname/pageinfo',
+    deletePageInfo: '/projectname/pageinfo/delete',
+    changePageInfo: '/projectname/pageinfo/update',
+    addPageInfo: '/projectname/pageinfo/save',
   },
   pagen: {
-    getPageinfon: '/project/pageinfon',
-    deletePageInfon: '/project/pageinfon/delete',
-    changePageInfon: '/project/pageinfon/update',
-    addPageInfon: '/project/pageinfon/save',
+    getPageinfon: '/projectname/pageinfon',
+    deletePageInfon: '/projectname/pageinfon/delete',
+    changePageInfon: '/projectname/pageinfon/update',
+    addPageInfon: '/projectname/pageinfon/save',
   }
 };
 //@scanEnd
