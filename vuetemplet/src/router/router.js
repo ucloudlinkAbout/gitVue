@@ -9,10 +9,6 @@ import pagen from '../views/page/pagen.vue'
 
 Vue.use(Router)
 
-// 全局事件代理
-window.$$vueEvent = new Vue()
-// 全局路由记录器
-window.$$vueRouter = {}
 export default new Router({
   routes: [
     {

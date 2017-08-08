@@ -7,7 +7,7 @@ var SystemGlobe = window.SystemGlobe || {};
 
 SystemGlobe.url = {
   // 查询字典
-  //暂定项目名为 @projectname
+  // 暂定项目名为 @projectname
   dictionary: {
     queryByCode: '/project/dictionary/queryDicByCode',
     queryByType: '/project/distionary/queryDictionaryType'
@@ -16,7 +16,7 @@ SystemGlobe.url = {
   loginforoms: {
     loginByBssaccount: '/project/partner/SassLogin',
     login: '',
-    login: ''
+    logout: ''
   },
   // 各个页面相关接口
   // page1
@@ -24,14 +24,14 @@ SystemGlobe.url = {
     getPageinfo: '/projectname/pageinfo',
     deletePageInfo: '/projectname/pageinfo/delete',
     changePageInfo: '/projectname/pageinfo/update',
-    addPageInfo: '/projectname/pageinfo/save',
+    addPageInfo: '/projectname/pageinfo/save'
   },
   pagen: {
     getPageinfon: '/projectname/pageinfon',
     deletePageInfon: '/projectname/pageinfon/delete',
     changePageInfon: '/projectname/pageinfon/update',
-    addPageInfon: '/projectname/pageinfon/save',
+    addPageInfon: '/projectname/pageinfon/save'
   }
-};
+}
 //@scanEnd
 //扫描结束标记
