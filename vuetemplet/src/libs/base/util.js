@@ -46,6 +46,7 @@ const util = {
       }
       return dataList;
   },
+
   /**
    * Created by wang.ding on 2017/8/7.
    * 工具类

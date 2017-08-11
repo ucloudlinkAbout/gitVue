@@ -31,6 +31,9 @@ SystemGlobe.url = {
     deletePageInfon: '/projectname/pageinfon/delete',
     changePageInfon: '/projectname/pageinfon/update',
     addPageInfon: '/projectname/pageinfon/save'
+  },
+  pageChartsBar: {
+    getpageChartsBar: '/projectname/pageChartsBar'
   }
 }
 //@scanEnd

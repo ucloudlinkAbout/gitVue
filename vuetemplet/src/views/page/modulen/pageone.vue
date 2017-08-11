@@ -1,5 +1,5 @@
 <template>
   <div>
-    <p>page2</p>
+    <p>modulen pageone</p>
   </div>
 </template>

@@ -3,14 +3,14 @@
     <v-header></v-header>
     <div class="tab">
       <div class="tab-item">
-        <router-link :to="{ name: 'page1', params: { router: page1 }}">page1</router-link>
+        <router-link :to="{ name: 'pageone'}">moduleone pageone</router-link>
       </div>
       <div class="tab-item">
-        <router-link :to="{ name: 'page2', params: { router: page2 }}">page2</router-link>
+        <router-link :to="{ name: 'pagetwo'}">moduletwo pagetwo</router-link>
         <!--<a v-link="{path:'/router2'}">router2</a>-->
       </div>
       <div class="tab-item">
-        <router-link :to="{ name: 'pagen', params: { router: pagen }}">pagen</router-link>
+        <router-link :to="{ name: 'pagen'}">modulen pagen</router-link>
       </div>
     </div>
     <router-view></router-view>

@@ -3,9 +3,10 @@ import Router from 'vue-router'
 import index from '../views/page/index.vue'
 import login from '../login.vue'
 import fault from '../404.vue'
-import page1 from '../views/page/page1.vue'
-import page2 from '../views/page/page2.vue'
-import pagen from '../views/page/pagen.vue'
+import pageone from '../views/page/moduleone/pageone.vue'
+import pagetwo from '../views/page/moduletwo/pagetwo.vue'
+import pagen from '../views/page/modulen/pagenn.vue'
+import pageChartsBar from '../views/page/modulecharts/pageChartsBar.vue'
 
 Vue.use(Router)
 
@@ -38,9 +39,9 @@ export default new Router({
          * 负责人：dingwang
          * */
         {
-          path: 'page1',
-          name: 'page1',
-          component: page1
+          path: 'pageone',
+          name: 'pageone',
+          component: pageone
         },
         /*
          * page2页面
@@ -48,9 +49,9 @@ export default new Router({
          * 负责人：dingwang
          * */
         {
-          path: 'page2',
-          name: 'page2',
-          component: page2
+          path: 'pagetwo',
+          name: 'pagetwo',
+          component: pagetwo
         },
         /*
          * pagen页面
@@ -61,6 +62,26 @@ export default new Router({
           path: 'pagen',
           name: 'pagen',
           component: pagen
+        },
+        /*
+         * pagen页面
+         * 时间:2017-08-11
+         * 负责人：dingwang
+         * */
+        {
+          path: 'pageChartsBar',
+          name: 'pageChartsBar',
+          component: pageChartsBar
+        },
+        /*
+         * pagen页面
+         * 时间:2017-08-11
+         * 负责人：dingwang
+         * */
+        {
+          path: 'pageChartsLine',
+          name: 'pageChartsLine',
+          component: require('../views/page/modulecharts/pageChartsLine.vue')
         }
       ]
     },
