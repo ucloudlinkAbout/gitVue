@@ -1,11 +1,11 @@
 /**
- * Created by wang.ding on 2017/7/12.
+ * Created by chenwenxiao on 2016/11/16.
  * 客户端session控制功能，基于对缓存cookie的处理
  */
 import CookieHelper from './cookieHelper'
 
 class session {
-
+    
     /**
      * 登录成功后，会保留cookie的值
      * @param {string} token access_token
@@ -20,7 +20,7 @@ class session {
         cookie.setCookie('language', language, window.SystemGlobe.devType.sessionTimeOut, window.SystemGlobe.devType.cookieDomain);
         cookie.setCookie('username', username, window.SystemGlobe.devType.sessionTimeOut, window.SystemGlobe.devType.cookieDomain);
     }
-
+    
     /**
      * 检查是否存在cookie，返回bool值
      * @return {boolean} 返回bool值
@@ -32,7 +32,7 @@ class session {
         }
         return false;
     }
-
+    
     /**
      * 获取loginCustomerId
      * @return {string} 返回loginCustomerId
@@ -41,7 +41,7 @@ class session {
         const cookie = new CookieHelper();
         return cookie.getCookie('loginCustomerId');
     }
-
+    
     /**
      * 获取access_token
      * @return {string} 返回access_token

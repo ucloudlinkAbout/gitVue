@@ -1,5 +1,5 @@
 /**
- * Created by wang.ding on 2017/7/12.
+ * Created by dingwang on 2016/11/7.
  * 专门用于处理字典表、国家字段等系统配置参数的模块，用于对表格或者别的模块的外键翻译
  */
 

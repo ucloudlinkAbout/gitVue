@@ -1,5 +1,5 @@
 /**
- *Created by wang.ding on 2017/7/12.
+ * Created by cwx on 2016/11/15.
  * 客户端密码简单加密模块
  */
 
@@ -17,7 +17,7 @@ class encryption {
         }
         return deStr;
     }
-
+    
     /**
      * 字符串加密
      * @param {string} str 字符串

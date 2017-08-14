@@ -1,5 +1,5 @@
 /**
- * Created by wang.ding on 2017/7/12.
+ * Created by chenwenxiao on 2016/8/23.
  * 描述：处理时区转换功能，后天服务器存储gmt0的时间戳，前端根据实际需要将时间戳转换成需要的
  */
 

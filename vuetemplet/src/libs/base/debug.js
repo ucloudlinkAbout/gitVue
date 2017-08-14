@@ -1,5 +1,5 @@
 /**
- * Created by wang.ding on 2017/7/12.
+ * Created by dingwang on 2016/10/25.
  */
 import TimeFormat from './timeFormat'
 

@@ -1,7 +1,7 @@
 /**
  * Created by wang.ding on 2017/8/11.
  */
-import ajax from '../../../../libs/base/ajax'
+import ajax from '../../../../libs/base/myajax'
 
 class pageChartsBar {
   /**

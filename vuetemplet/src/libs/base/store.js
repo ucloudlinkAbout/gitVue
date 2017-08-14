@@ -1,5 +1,5 @@
 /**
- * Created by wang.ding on 2017/7/12.
+ * Created by chenwenxiao on 2016/9/30.
  * 对localStorage和sessionStorage进行了简单的封装
  */
 

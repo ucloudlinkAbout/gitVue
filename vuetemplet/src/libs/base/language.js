@@ -1,5 +1,5 @@
 /**
- * Created by wang.ding on 2017/7/12.
+ * Created by chenwenxiao on 2016/11/16.
  * 当前使用的默认语言判断，及语言切换功能
  */
 import Store from './store'
