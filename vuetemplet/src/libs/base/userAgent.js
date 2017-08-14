@@ -1,5 +1,5 @@
 /**
- * Created by wang.ding on 2017/7/12.
+ * Created by chenwenxiao on 2017/1/13.
  */
 import Store from './store'
 import { ajaxAuthor } from './ajax'
